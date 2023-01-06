@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+Main page
+{% endblock %}
+
+
+{% block body %}
+<div class="container mt-5">
+    <h1>LOGIN</h1>
+    <form method="post">
+        
+        <input type="text" name="title1" id="title1" class="form-control"><br>
+        <input type="text" name="intro1" id="intro1" class="form-control"><br>
+        <input type="checkbox" name = "remember"> Запомнить меня <br>
+        <input type="submit" class="btn btn-success" value="send"><br>
+        <a class="btn btn-warning" href="/create-account">Зарегестрироваться</a><br>
+    </form>
+</div>
+
+{% endblock %}
